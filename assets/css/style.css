@@ -830,6 +830,10 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contact .info {
