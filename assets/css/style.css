@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #272829;
 }
 
@@ -69,7 +69,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #2c2f3f;
+  background: #131921;
   /* 1B2430 */
   overflow-y: auto;
 }
@@ -100,7 +100,7 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #1b1f2f;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -138,6 +138,8 @@ h6 {
 /* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-menu * {
@@ -220,8 +222,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/react.jpg") top center;
+  background: url("../img/code.jpg") top center;
   background-size: cover;
+  background-position: top top;
 }
 
 #hero:before {
@@ -322,6 +325,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  line-height: 30px;
 }
 
 /*--------------------------------------------------------------
